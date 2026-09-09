@@ -6,6 +6,18 @@ OctoAcme is committed to **customer-first**, **iterative delivery** with **clear
 
 ---
 
+## OctoAcme Project Management Overview
+
+OctoAcme follows a structured, lifecycle-based approach to project management that prioritizes customer value, iterative delivery, and clear ownership. The framework consists of five core phases: **Initiation**, **Planning**, **Execution**, **Release**, and **Close & Retrospective**. Each phase is guided by documented processes and supported by lightweight artifacts—such as Project One-pagers, risk registers, and acceptance criteria—that ensure alignment across stakeholders. The organization emphasizes data-informed decision-making, psychological safety, and continuous improvement, with roles clearly defined for Project Managers (who coordinate delivery and manage schedules), Product Managers (who define outcomes and prioritize work), Developers (who implement features), and QA teams. This structure enables teams to deliver small, testable increments while maintaining transparency and reducing single-point-of-failure dependencies.
+
+Communication is woven throughout OctoAcme's execution model via a structured cadence: daily standups focused on progress and blockers, weekly syncs between PM and Product Lead, twice-weekly delivery team standups, and monthly stakeholder updates. Risks and dependencies are actively managed through a Risk Register that tracks identification, assessment, mitigation, and monitoring; escalation paths are clearly defined, running from team-level triage through PM, Product Lead, and Sponsor levels as needed. Stakeholders receive regular status updates using a standard template covering progress, next steps, risks, and decisions required, ensuring no surprises and enabling rapid response to emerging issues.
+
+Quality and testing are embedded into day-to-day execution rather than treated as afterthoughts. Teams follow a pull request workflow requiring small PRs (≤400 lines when possible) with clear issue links and acceptance criteria, automated CI testing and linting before review, and at least one approval before merging. The broader quality strategy includes unit tests for new logic, integration tests where applicable, end-to-end smoke tests for critical flows, security scanning in CI, and manual QA when needed. A Definition of Done is established during planning to ensure consistency, and acceptance criteria are defined at the backlog item level. Progress is tracked through velocity and burndown metrics, and the team uses GitHub Projects or similar boards with standardized columns (Backlog, Ready, In Progress, In Review, QA, Done) to maintain visibility and flow.
+
+Finally, OctoAcme institutionalizes learning through retrospectives held after each sprint, release, or milestone. These sessions capture what went well, what could improve, and generate 2–3 prioritized action items with assigned owners and due dates. Improvements are tracked as backlog issues and reviewed in weekly PM syncs, creating a feedback loop that drives continuous refinement of both product and process. This commitment to reflection and adaptation helps the organization reduce cycle time, improve quality, and prevent repeated mistakes—ultimately enabling faster delivery and higher team satisfaction.
+
+---
+
 ## Quick Start
 
 - **New to OctoAcme?** Start with [OctoAcme Project Management Overview](octoacme-project-management-overview.md)
